@@ -66,8 +66,8 @@
       "guid": "287bd0b4415f2687a7f78658ea2d3d5b",
       "origin_story_identifier": "cloud:516c20ff776f20c698b83b2a4a19b8f1:bcb5bd66894df11fdeb0501a128f1947",
       "options": {
-        "path": "f5de9c0807e0ae374a8508783a07e292",
-        "secret": "ce6494ccfd3adb9072f4668689cc82b0",
+        "path": "fe56a24db231a6f16dc4c879545b6ab0",
+        "secret": "3feab25ffa1374cd009c297232ca3ce2",
         "verbs": "get,post"
       },
       "reporting": {
@@ -144,7 +144,7 @@
         "pages_action_color": "#777FFF",
         "pages_appearance_mode": "light",
         "pages_background_color": "#F9F9F9",
-        "url_identifier": "93f7ba3218d2382c3be1c54f4106573a"
+        "url_identifier": "9b0bf0a5ee0f0bbc6f231c0afb251f29"
       },
       "reporting": {
         "time_saved_value": 0,
@@ -289,7 +289,7 @@
         "method": "post",
         "content_type": "json",
         "headers": {
-          "Authorization": "Bearer <<CREDENTIAL.limacharlie>>"
+          "Authorization": "Bearer <<CREDENTIAL.limac>>"
         }
       },
       "reporting": {
@@ -371,7 +371,7 @@
         "url": "https://api.limacharlie.io/v1/<<limacharlie_detect_lazagne.body.routing.sid>>/isolation",
         "method": "get",
         "headers": {
-          "Authorization": "Bearer <<CREDENTIAL.limacharlie>>",
+          "Authorization": "Bearer <<CREDENTIAL.limac>>",
           "Content-Type": "application/json"
         }
       },
@@ -432,7 +432,7 @@
       "receiver": 8
     }
   ],
-  "diagram_layout": "{\"dbeee283e9a11e9899354d41abb8fd38\":[585,315],\"287bd0b4415f2687a7f78658ea2d3d5b\":[555,210],\"58ad54e530beb6b8c7f729710540ddd6\":[765,315],\"e07695f24eeef33f0af066963d36d013\":[555,405],\"19e02e3324890df3d8e7e7aabf076db5\":[735,720],\"b4ab0e86363ccca17ea6e9968aa25d90\":[555,720],\"bfcfa492e7175b8a6f75911bc4c88650\":[735,810],\"73da1e71f7eb2265e2394a23b9ec15fd\":[555,810],\"75637f808a3c138a4b582bce9c85f1ba\":[555,990],\"abbdcfd73e2eb124ffd0582b1b434b4c\":[555,900]}",
+  "diagram_layout": "{\"dbeee283e9a11e9899354d41abb8fd38\":[600,345],\"287bd0b4415f2687a7f78658ea2d3d5b\":[555,270],\"58ad54e530beb6b8c7f729710540ddd6\":[780,345],\"e07695f24eeef33f0af066963d36d013\":[555,405],\"19e02e3324890df3d8e7e7aabf076db5\":[735,675],\"b4ab0e86363ccca17ea6e9968aa25d90\":[555,675],\"bfcfa492e7175b8a6f75911bc4c88650\":[735,735],\"73da1e71f7eb2265e2394a23b9ec15fd\":[555,735],\"75637f808a3c138a4b582bce9c85f1ba\":[555,855],\"abbdcfd73e2eb124ffd0582b1b434b4c\":[555,795]}",
   "send_to_story_enabled": false,
   "entry_agent_guid": null,
   "exit_agent_guids": [],
@@ -719,7 +719,7 @@
   "integration_product": null,
   "integration_vendor": null,
   "llm_product_instructions": "",
-  "exported_at": "2024-09-29T05:11:49Z",
+  "exported_at": "2024-09-29T08:13:56Z",
   "icon": ":pill:",
   "integrations": [
     {
@@ -1206,7 +1206,7 @@
           "required": true,
           "type": "TEXT",
           "ranking": 1073741824,
-          "value": "\"The computer:\\n<<limacharlie_detect_lazagne.body.detect.routing.hostname>>\\n\\nhas been isolated.\\n\\nIsolation status: <<get_isolation_status.body.is_isolated>>\"",
+          "value": "\"The computer:\\n<<limacharlie_detect_lazagne.body.detect.routing.hostname>>\\n\\nhas been isolated.\\n\\nIsolation status: true\"",
           "options": [
             "Option 1",
             "Option 2"
