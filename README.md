@@ -1,7 +1,7 @@
 # soar-edr
 
 LimaCharlie D&R Rule
-'''
+```
 events:
   - NEW_PROCESS
   - EXISTING_PROCESS
@@ -33,4 +33,4 @@ rules:
     tags:
       - attack.credential_access
   name: Pep - HackTool - Lazagne
-'''
+```
